@@ -15,9 +15,13 @@ def run():
     "floating-nums": [-1.2, 2, -3, 4.5],
   }
 
-  for key, value in super_dic.items():
-    print(key, "- ", value)
+  # for key, value in super_dic.items():
+  #   print(key, "- ", value)
 
+  for values_list in super_list:
+    print("Person data")
+    for key, value in values_list.items():
+      print("\t", key, "-", value)
 
 
 if __name__ == '__main__':
